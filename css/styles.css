@@ -1,0 +1,77 @@
+
+
+body{
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  background-color: antiquewhite;
+  margin: 0 auto;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.header{
+  background-image: url("oosterhoutcentrum.jpeg");  
+  width: 100%;
+  font-size: 60px;
+  position: relative;
+  text-align: center;
+  color: rgba(248, 248, 248, 0.816);
+}
+#img-head{
+  display: block;
+  margin-left: 5px;
+  margin-right: 15px;
+  width: 98.5%;
+  padding: 5px;
+  filter: grayscale(10%); opacity: 100%;
+  position:relative;
+  z-index:-1;
+  max-height: 33rem;
+}
+h4{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -90%); 
+}
+
+.col-2 {
+  background-color: #C0D6DF;
+  width: 16.66%;
+}
+.col-3 {
+  background-color: #60a5c2d6;
+  width: 37.5%
+}
+.col-4 {
+  background-color:  #65bee1bf;
+  width: 37.5%  
+}
+#img-zusters{
+  max-height: 65%;
+  max-width: 65%; 
+  padding: 5px;
+  border-radius: 5%;
+  border-style: solid;
+  border-color:white;
+  background-color: #dd6e4287;
+  margin-right: 2px;
+  float: right;
+}
+.footer {
+  background-color: #dd6e4260;
+  text-align: center;
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {body{background-color: #2ed06cb9;}} 
+
+@media only screen and (min-width: 768px) {
+.col-art1 {width: 25%;}
+.col-art2 {width: 33%;}
+.col-art3 {width: 33%;}
+.col-foot {width: 100%;}
+h4{  font-size: 90px; font-family: Arial, Helvetica, sans-serif; color:red;}}
+
